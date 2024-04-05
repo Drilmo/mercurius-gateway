@@ -16,6 +16,7 @@
     "lint:typescript": "standard --parser @typescript-eslint/parser --plugin @typescript-eslint/eslint-plugin test/types/*.ts",
     "lint:typescript:fix": "standard --parser @typescript-eslint/parser --plugin @typescript-eslint/eslint-plugin test/types/*.ts --fix",
     "example": "node example/index.js",
+    "exemple-2":"node example-2/index.js",
     "test": "npm run lint && npm run test:types && npm run test:unit ",
     "test:unit": "tap test/*.js",
     "test:cov": "tap --coverage-report=html test/*.js",
